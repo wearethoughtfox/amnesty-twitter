@@ -1570,6 +1570,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .pv0 { padding-top: 0; padding-bottom: 0; }
 .pv1 { padding-top: .25rem; padding-bottom: .25rem; }
 .pv2 { padding-top: .5rem; padding-bottom: .5rem; }
+.pv2-5 { padding-top: .75rem; padding-bottom: .75rem; }
 .pv3 { padding-top: 1rem; padding-bottom: 1rem; }
 .pv4 { padding-top: 2rem; padding-bottom: 2rem; }
 .pv5 { padding-top: 4rem; padding-bottom: 4rem; }
