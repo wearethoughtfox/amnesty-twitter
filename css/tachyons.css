@@ -277,6 +277,8 @@ input[type="tel"], input[type="text"], input[type="url"], .border-box { box-sizi
 .aspect-ratio--5x7 { padding-bottom: 140%; }
 .aspect-ratio--1x1 { padding-bottom: 100%; }
 .aspect-ratio--object { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 100; }
+.responsive-embed { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; }
+.responsive-embed iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 /*
 
    IMAGES
@@ -1183,6 +1185,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .twitter-lightblue { color: #97e3ff; }
 .twitter-green { color: #1fb650; }
 .twitter-lightgreen { color: #68e090; }
+.twitter-darkgreen { color: #008951; }
+.twitter-grey { color: #657786; }
 .color-inherit { color: inherit; }
 .bg-black-90 { background-color: rgba( 0, 0, 0, .9 ); }
 .bg-black-80 { background-color: rgba( 0, 0, 0, .8 ); }
@@ -1245,11 +1249,14 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-twitter-lightblue { background-color: #97e3ff; }
 .bg-twitter-green { background-color: #1fb650; }
 .bg-twitter-lightgreen { background-color: #68e090; }
+.bg-twitter-darkgreen { background-color: #008951; }
+.bg-twitter-grey { background-color: #657786; }
 .bg-inherit { background-color: inherit; }
 .fill-white { fill: #fff; }
 .fill-twitter-blue { fill: #1da1f2; }
 .fill-twitter-lightblue { fill: #97e3ff; }
 .fill-twitter-lightgreen { fill: #68e090; }
+.fill-twitter-darkgreen { fill: #008951; }
 /* 
   
    SKINS:PSEUDO
