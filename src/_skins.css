@@ -69,6 +69,10 @@
 .washed-green { color: var(--washed-green); }
 .washed-yellow { color: var(--washed-yellow); }
 .washed-red { color: var(--washed-red); }
+.twitter-blue { color: var(--twitter-blue); }
+.twitter-lightblue { color: var(--twitter-lightblue); }
+.twitter-green { color: var(--twitter-green); }
+.twitter-lightgreen { color: var(--twitter-lightgreen); }
 .color-inherit { color: inherit; }
 
 .bg-black-90 {         background-color: var(--black-90); }
@@ -134,6 +138,12 @@
 .bg-washed-yellow { background-color: var(--washed-yellow); }
 .bg-washed-red { background-color: var(--washed-red); }
 .bg-twitter-blue { background-color: var(--twitter-blue); }
+.bg-twitter-lightblue { background-color: var(--twitter-lightblue); }
+.bg-twitter-green { background-color: var(--twitter-green); }
+.bg-twitter-lightgreen { background-color: var(--twitter-lightgreen); }
 .bg-inherit { background-color: inherit; }
 
+.fill-white { fill: var(--white);}
+.fill-twitter-blue { fill: var(--twitter-blue);}
 .fill-twitter-lightblue { fill: var(--twitter-lightblue);}
+.fill-twitter-lightgreen { fill: var(--twitter-lightgreen);}

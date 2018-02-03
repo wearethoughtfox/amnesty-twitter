@@ -870,6 +870,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 */
 /* Height Scale */
+.hsmall { height: .375rem; }
 .h1 { height: 1rem; }
 .h2 { height: 2rem; }
 .h3 { height: 4rem; }
@@ -1178,6 +1179,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .washed-green { color: #e8fdf5; }
 .washed-yellow { color: #fffceb; }
 .washed-red { color: #ffdfdf; }
+.twitter-blue { color: #1da1f2; }
+.twitter-lightblue { color: #97e3ff; }
+.twitter-green { color: #1fb650; }
+.twitter-lightgreen { color: #68e090; }
 .color-inherit { color: inherit; }
 .bg-black-90 { background-color: rgba( 0, 0, 0, .9 ); }
 .bg-black-80 { background-color: rgba( 0, 0, 0, .8 ); }
@@ -1237,8 +1242,14 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-washed-yellow { background-color: #fffceb; }
 .bg-washed-red { background-color: #ffdfdf; }
 .bg-twitter-blue { background-color: #1da1f2; }
+.bg-twitter-lightblue { background-color: #97e3ff; }
+.bg-twitter-green { background-color: #1fb650; }
+.bg-twitter-lightgreen { background-color: #68e090; }
 .bg-inherit { background-color: inherit; }
+.fill-white { fill: #fff; }
+.fill-twitter-blue { fill: #1da1f2; }
 .fill-twitter-lightblue { fill: #97e3ff; }
+.fill-twitter-lightgreen { fill: #68e090; }
 /* 
   
    SKINS:PSEUDO

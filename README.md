@@ -2,7 +2,6 @@
 ## Dev url
 https://wearethoughtfox.github.io/amnesty-twitter/
 
-
 ## It's alive
 ```
 npm start
