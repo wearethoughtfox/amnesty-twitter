@@ -447,6 +447,7 @@ img { max-width: 100%; }
 .b--washed-green { border-color: #e8fdf5; }
 .b--washed-yellow { border-color: #fffceb; }
 .b--washed-red { border-color: #ffdfdf; }
+.b--twitter-blue { border-color: #1da1f2; }
 .b--transparent { border-color: transparent; }
 .b--inherit { border-color: inherit; }
 /*
@@ -901,7 +902,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 */
 .tracked { letter-spacing: .1em; }
-.tracked-tight { letter-spacing: -.05em; }
+.tracked-tight { letter-spacing: -.025em; }
 .tracked-mega { letter-spacing: .25em; }
 /*
 
@@ -1117,8 +1118,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
    Docs: http://tachyons.io/docs/themes/skins/
 
    Classes for setting foreground and background colors on elements.
-   If you haven't declared a border color, but set border on an element, it will 
-   be set to the current text color. 
+   If you haven't declared a border color, but set border on an element, it will
+   be set to the current text color.
 
 */
 /* Text colors */
@@ -1235,7 +1236,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-washed-green { background-color: #e8fdf5; }
 .bg-washed-yellow { background-color: #fffceb; }
 .bg-washed-red { background-color: #ffdfdf; }
+.bg-twitter-blue { background-color: #1da1f2; }
 .bg-inherit { background-color: inherit; }
+.fill-twitter-lightblue { fill: #97e3ff; }
 /* 
   
    SKINS:PSEUDO

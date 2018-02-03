@@ -82,5 +82,7 @@
 .b--washed-yellow { border-color: var(--washed-yellow); }
 .b--washed-red { border-color: var(--washed-red); }
 
+.b--twitter-blue { border-color: var(--twitter-blue); }
+
 .b--transparent { border-color: var(--transparent); }
 .b--inherit { border-color: inherit; }

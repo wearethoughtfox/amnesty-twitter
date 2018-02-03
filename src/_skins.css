@@ -4,8 +4,8 @@
    Docs: http://tachyons.io/docs/themes/skins/
 
    Classes for setting foreground and background colors on elements.
-   If you haven't declared a border color, but set border on an element, it will 
-   be set to the current text color. 
+   If you haven't declared a border color, but set border on an element, it will
+   be set to the current text color.
 
 */
 
@@ -133,4 +133,7 @@
 .bg-washed-green { background-color: var(--washed-green); }
 .bg-washed-yellow { background-color: var(--washed-yellow); }
 .bg-washed-red { background-color: var(--washed-red); }
+.bg-twitter-blue { background-color: var(--twitter-blue); }
 .bg-inherit { background-color: inherit; }
+
+.fill-twitter-lightblue { fill: var(--twitter-lightblue);}

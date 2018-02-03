@@ -1,4 +1,13 @@
+
+## Dev url
+https://wearethoughtfox.github.io/amnesty-twitter/
+
+
+## It's alive
+```
+npm start
 browser-sync start --server --files "index.html, css/tachyons.css"
+```
 
 # TACHYONS
 
