@@ -75,6 +75,7 @@
 .twitter-lightgreen { color: var(--twitter-lightgreen); }
 .twitter-darkgreen { color: var(--twitter-darkgreen); }
 .twitter-grey { color: var(--twitter-grey); }
+.twitter-purple { color: var(--twitter-purple); }
 .color-inherit { color: inherit; }
 
 .bg-black-90 {         background-color: var(--black-90); }
@@ -145,6 +146,8 @@
 .bg-twitter-lightgreen { background-color: var(--twitter-lightgreen); }
 .bg-twitter-darkgreen { background-color: var(--twitter-darkgreen); }
 .bg-twitter-grey { background-color: var(--twitter-grey); }
+.bg-twitter-purple { background-color: var(--twitter-purple); }
+.bg-twitter-lightgrey { background-color: var(--twitter-lightgrey); }
 .bg-inherit { background-color: inherit; }
 
 .fill-white { fill: var(--white);}
@@ -152,3 +155,4 @@
 .fill-twitter-lightblue { fill: var(--twitter-lightblue);}
 .fill-twitter-lightgreen { fill: var(--twitter-lightgreen);}
 .fill-twitter-darkgreen { fill: var(--twitter-darkgreen);}
+.fill-twitter-grey { fill: var(--twitter-grey);}
