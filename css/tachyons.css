@@ -484,8 +484,8 @@ img { max-width: 100%; }
 .br4 { border-radius: 1rem; }
 .br-100 { border-radius: 100%; }
 .br-pill { border-radius: 9999px; }
-.br--bottom { border-top-left-radius: 0; border-top-right-radius: 0; }
-.br--top { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+.br--top { border-top-left-radius: 0; border-top-right-radius: 0; }
+.br--bottom { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
 .br--right { border-top-left-radius: 0; border-bottom-left-radius: 0; }
 .br--left { border-top-right-radius: 0; border-bottom-right-radius: 0; }
 /*
@@ -1189,7 +1189,12 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .twitter-lightgreen { color: #68e090; }
 .twitter-darkgreen { color: #008951; }
 .twitter-grey { color: #657786; }
+.twitter-lightgrey { color: #f4f7f9; }
 .twitter-purple { color: #794bc4; }
+.twitter-lightpurple { color: #a37ced; }
+.twitter-darkpurple { color: #4f0299; }
+.twitter-pink { color: #e0245e; }
+.twitter-lightpink { color: undefined; }
 .color-inherit { color: inherit; }
 .bg-black-90 { background-color: rgba( 0, 0, 0, .9 ); }
 .bg-black-80 { background-color: rgba( 0, 0, 0, .8 ); }
@@ -1255,6 +1260,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-twitter-darkgreen { background-color: #008951; }
 .bg-twitter-grey { background-color: #657786; }
 .bg-twitter-purple { background-color: #794bc4; }
+.bg-twitter-darkpurple { background-color: #4f0299; }
+.bg-twitter-lightpurple { background-color: #a37ced; }
+.bg-twitter-pink { background-color: #e0245e; }
+.bg-twitter-darkpink { background-color: #f6809a; }
 .bg-twitter-lightgrey { background-color: #f4f7f9; }
 .bg-inherit { background-color: inherit; }
 .fill-white { fill: #fff; }
