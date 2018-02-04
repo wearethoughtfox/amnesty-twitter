@@ -42,6 +42,8 @@
 
 /* Width Scale */
 
+.wmedium {    width: 0.75rem; }
+
 .w1 {    width: 1rem; }
 .w2 {    width: 2rem; }
 .w3 {    width: 4rem; }

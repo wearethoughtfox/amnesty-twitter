@@ -874,6 +874,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 */
 /* Height Scale */
 .hsmall { height: .375rem; }
+.hmedium { height: .75rem; }
 .h1 { height: 1rem; }
 .h2 { height: 2rem; }
 .h3 { height: 4rem; }
@@ -1027,6 +1028,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 */
 /* Width Scale */
+.wmedium { width: .75rem; }
 .w1 { width: 1rem; }
 .w2 { width: 2rem; }
 .w3 { width: 4rem; }
@@ -1105,6 +1107,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .o-05 { opacity: .05; }
 .o-025 { opacity: .025; }
 .o-0 { opacity: 0; }
+.fillo-60 { fill-opacity: .6; }
 /*
 
    ROTATIONS
@@ -1569,6 +1572,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .pb5 { padding-bottom: 4rem; }
 .pb6 { padding-bottom: 8rem; }
 .pb7 { padding-bottom: 16rem; }
+.pb3-5 { padding-bottom: 1.5rem; }
 .pt0 { padding-top: 0; }
 .pt1 { padding-top: .25rem; }
 .pt2 { padding-top: .5rem; }
@@ -1962,17 +1966,17 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .grow-large:hover, .grow-large:focus { -webkit-transform: scale( 1.2 ); transform: scale( 1.2 ); }
 .grow-large:active { -webkit-transform: scale( .95 ); transform: scale( .95 ); }
 /* Add pointer on hover */
-.pointer:hover { cursor: pointer; }
-/* 
+.pointer-hover { cursor: pointer; }
+/*
    Add shadow on hover.
 
-   Performant box-shadow animation pattern from 
-   http://tobiasahlin.com/blog/how-to-animate-box-shadow/ 
+   Performant box-shadow animation pattern from
+   http://tobiasahlin.com/blog/how-to-animate-box-shadow/
 */
 .shadow-hover { cursor: pointer; position: relative; transition: all .5s cubic-bezier( .165, .84, .44, 1 ); }
 .shadow-hover::after { content: ''; box-shadow: 0 0 16px 2px rgba( 0, 0, 0, .2 ); border-radius: inherit; opacity: 0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; transition: opacity .5s cubic-bezier( .165, .84, .44, 1 ); }
 .shadow-hover:hover::after, .shadow-hover:focus::after { opacity: 1; }
-/* Combine with classes in skins and skins-pseudo for 
+/* Combine with classes in skins and skins-pseudo for
  * many different transition possibilities. */
 .bg-animate, .bg-animate:hover, .bg-animate:focus { transition: background-color .15s ease-in-out; }
 /*
@@ -2047,6 +2051,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
   Add custom styles here.
 
 */
+.langOverlay { opacity: 0; visibility: hidden; transition: all .5s ease; }
+.open { opacity: .9; visibility: visible; }
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
 /*

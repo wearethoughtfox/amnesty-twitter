@@ -90,6 +90,8 @@
 .pb6 { padding-bottom: var(--spacing-extra-extra-large); }
 .pb7 { padding-bottom: var(--spacing-extra-extra-extra-large); }
 
+.pb3-5 { padding-bottom: var(--spacing-medium-large); }
+
 .pt0 { padding-top: var(--spacing-none); }
 .pt1 { padding-top: var(--spacing-extra-small); }
 .pt2 { padding-top: var(--spacing-small); }

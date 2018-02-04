@@ -34,6 +34,7 @@
 /* Height Scale */
 
 .hsmall { height: .375rem; }
+.hmedium { height: .75rem; }
 .h1 { height: 1rem; }
 .h2 { height: 2rem; }
 .h3 { height: 4rem; }
