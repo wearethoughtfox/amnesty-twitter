@@ -6,6 +6,7 @@
   --spacing-small: .5rem;
   --spacing-small-medium: .75rem;
   --spacing-medium: 1rem;
+  --spacing-medium-large: 1.5rem;
   --spacing-large: 2rem;
   --spacing-extra-large: 4rem;
   --spacing-extra-extra-large: 8rem;
@@ -68,6 +69,8 @@
 .pl6 { padding-left: var(--spacing-extra-extra-large); }
 .pl7 { padding-left: var(--spacing-extra-extra-extra-large); }
 
+.pl3-5 { padding-left: var(--spacing-medium-large); }
+
 .pr0 { padding-right: var(--spacing-none); }
 .pr1 { padding-right: var(--spacing-extra-small); }
 .pr2 { padding-right: var(--spacing-small); }
@@ -94,6 +97,8 @@
 .pt5 { padding-top: var(--spacing-extra-large); }
 .pt6 { padding-top: var(--spacing-extra-extra-large); }
 .pt7 { padding-top: var(--spacing-extra-extra-extra-large); }
+
+.pt3-5 { padding-top: var(--spacing-small-medium); }
 
 .pv0 {
   padding-top: var(--spacing-none);

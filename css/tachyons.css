@@ -484,8 +484,8 @@ img { max-width: 100%; }
 .br4 { border-radius: 1rem; }
 .br-100 { border-radius: 100%; }
 .br-pill { border-radius: 9999px; }
-.br--top { border-top-left-radius: 0; border-top-right-radius: 0; }
-.br--bottom { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+.br--bottom { border-top-left-radius: 0; border-top-right-radius: 0; }
+.br--top { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
 .br--right { border-top-left-radius: 0; border-bottom-left-radius: 0; }
 .br--left { border-top-right-radius: 0; border-bottom-right-radius: 0; }
 /*
@@ -1552,6 +1552,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .pl5 { padding-left: 4rem; }
 .pl6 { padding-left: 8rem; }
 .pl7 { padding-left: 16rem; }
+.pl3-5 { padding-left: 1.5rem; }
 .pr0 { padding-right: 0; }
 .pr1 { padding-right: .25rem; }
 .pr2 { padding-right: .5rem; }
@@ -1576,6 +1577,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .pt5 { padding-top: 4rem; }
 .pt6 { padding-top: 8rem; }
 .pt7 { padding-top: 16rem; }
+.pt3-5 { padding-top: .75rem; }
 .pv0 { padding-top: 0; padding-bottom: 0; }
 .pv1 { padding-top: .25rem; padding-bottom: .25rem; }
 .pv2 { padding-top: .5rem; padding-bottom: .5rem; }
