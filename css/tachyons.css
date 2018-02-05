@@ -1276,13 +1276,13 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .fill-twitter-lightgreen { fill: #68e090; }
 .fill-twitter-darkgreen { fill: #008951; }
 .fill-twitter-grey { fill: #657786; }
-/* 
-  
+/*
+
    SKINS:PSEUDO
 
    Customize the color of an element when
    it is focused or hovered over.
- 
+
  */
 .hover-black:hover { color: #000; }
 .hover-black:focus { color: #000; }
@@ -1306,6 +1306,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-near-white:focus { color: #f4f4f4; }
 .hover-white:hover { color: #fff; }
 .hover-white:focus { color: #fff; }
+.hover-twitter-blue:hover { color: #1da1f2; }
+.hover-twitter-blue:focus { color: #1da1f2; }
 .hover-black-90:hover { color: rgba( 0, 0, 0, .9 ); }
 .hover-black-90:focus { color: rgba( 0, 0, 0, .9 ); }
 .hover-black-80:hover { color: rgba( 0, 0, 0, .8 ); }
@@ -2054,6 +2056,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 */
 .langOverlay { opacity: 0; visibility: hidden; transition: all .5s ease; }
 .open { opacity: .9; visibility: visible; }
+.dropdown { visibility: hidden; transition: visibility .3s ease-in-out; box-shadow: -6px 6px 25px -6px rgba( 20, 23, 26, .1 ), 6px 6px 25px -6px rgba( 20, 23, 26, .1 ); }
+.menu-dropdown:hover > .dropdown { visibility: visible; }
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
 /*

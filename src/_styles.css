@@ -17,3 +17,12 @@
   visibility: visible;
 }
 
+.dropdown {
+  visibility: hidden;
+  transition: visibility 0.3s ease-in-out;
+  box-shadow: -6px 6px 25px -6px rgba(20,23,26,.1), 6px 6px 25px -6px rgba(20,23,26,.1);
+}
+
+.menu-dropdown:hover > .dropdown {
+  visibility: visible;
+}
