@@ -26,3 +26,7 @@
 .menu-dropdown:hover > .dropdown {
   visibility: visible;
 }
+
+.langnav-chevron svg {
+  height: 0.5rem;
+}
