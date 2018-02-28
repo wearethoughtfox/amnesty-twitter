@@ -318,20 +318,18 @@
     </footer>
 
     <script>
-      window.onload = function() {
+      (function () {
        document.getElementById("closeNav").addEventListener( 'click', removeClass);
        document.getElementById("openNav").addEventListener( 'click', addClass);
-      }
 
-      function removeClass() {
-        document.getElementById("langOverlay").className = document.getElementById("langOverlay").className.replace ( /(?:^|\s)open(?!\S)/g , '' )
-      }
+       function removeClass() {
+          document.getElementById("langOverlay").className = document.getElementById("langOverlay").className.replace ( /(?:^|\s)open(?!\S)/g , '' )
+        }
 
-      function addClass() {
-        document.getElementById("langOverlay").className += " open";
-      }
+        function addClass() {
+          document.getElementById("langOverlay").className += " open";
+        }
 
-      window.onload = function() {
         var btn = document.getElementById("dropDown");
         var target = document.getElementById("dropDownTarget");
 
@@ -342,7 +340,7 @@
           target.hidden = expanded;
         };
 
-      }
+      })();
 
     </script>
 
