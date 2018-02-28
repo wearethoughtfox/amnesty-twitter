@@ -80,7 +80,24 @@
           <h2 class="o-50 f5 f3-l pb0 lh-title">Twitter started with a simple, but powerful idea:</h2>
           <h1 class="f2 f-subheadline-l tracked-tight pt1 lh-solid mt0">Let people abuse women wherever they are in the world right now<span class="db pt4">Tell Twitter to make this stop<span></h1>
          <a class="f5 f3-l fw7 link dim br-pill ph3 pv2-5 mb2 dib twitter-blue bg-white" target="_blank" href="https://twitter.com/intent/tweet?text=Put the text of the tweet here: http://link via @twitter">Tweet now</a>
+
+         <h2>
+          <button id="dropDown" aria-expanded="false">
+            Not on Twitter? Email them instead!
+            <svg aria-hidden="true" focusable="false" viewBox="0 0 10 10">
+              <rect class="vert" height="8" width="2" y="1" x="4"/>
+              <rect height="2" width="8" y="4" x="1"/>
+            </svg>
+          </button>
+        </h2>
+
+          <div hidden id="dropDownTarget">
+            <p>Send an email to Twitter's CEO and make a stand with Amnesty International</p>
+            <p>**IFRAME GOES HERE**</p>
+          </div>
+
         </div>
+
         <div class="absolute center left-0 right-0 bottom-2 w2 h2 fill-twitter-lightblue pointer-hover">
           <svg xmlns="http://www.w3.org/2000/svg" width="34" height="20" viewBox="0 0 34 20"><path d="M20.1,16.3c-0.3,0-0.6-0.1-0.8-0.3L6.4,6.8C5.8,6.4,5.6,5.5,6.1,4.9C6.5,4.3,7.4,4.1,8,4.6l12.1,8.7l12.1-8.7 c0.6-0.4,1.5-0.3,1.9,0.3c0.4,0.6,0.3,1.5-0.3,1.9l-12.9,9.3C20.6,16.2,20.4,16.3,20.1,16.3z"></path></svg>
         </div>
@@ -312,6 +329,19 @@
 
       function addClass() {
         document.getElementById("langOverlay").className += " open";
+      }
+
+      window.onload = function() {
+        var btn = document.getElementById("dropDown");
+        var target = document.getElementById("dropDownTarget");
+
+        btn.onclick = function () {
+          var expanded = btn.getAttribute('aria-expanded') === 'true' || false;
+
+          btn.setAttribute('aria-expanded', !expanded);
+          target.hidden = expanded;
+        };
+
       }
 
     </script>

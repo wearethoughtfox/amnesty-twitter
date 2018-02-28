@@ -30,3 +30,28 @@
 .langnav-chevron svg {
   height: 0.5rem;
 }
+
+h2 button {
+  all: inherit;
+  border: 0;
+  width: 100%;
+  padding: 0.5em 0;
+}
+
+h2 button:focus svg {
+  outline: 2px solid;
+}
+
+button svg {
+  height: 1em;
+  margin-left: 0.5em;
+}
+
+[aria-expanded="true"] .vert {
+  display: none;
+}
+
+[aria-expanded] rect {
+  fill: currentColor;
+}
+
