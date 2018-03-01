@@ -43,8 +43,8 @@ h2 button:focus svg {
 }
 
 button svg {
-  height: 1em;
-  margin-left: 0.5em;
+  height: 1rem;
+  margin-left: 0.5rem;
 }
 
 [aria-expanded="true"] .vert {
@@ -55,5 +55,6 @@ button svg {
   fill: currentColor;
 }
 
-.minh8  {  min-height: 64rem; }
-
+@media (--breakpoint-large) {
+  .minh8-l  {  min-height: 64rem; }
+}
