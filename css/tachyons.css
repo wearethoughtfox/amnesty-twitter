@@ -2060,7 +2060,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .menu-dropdown:hover > .dropdown { visibility: visible; }
 .langnav-chevron svg { height: .5rem; }
 h2 button { all: inherit; border: 0; width: 100%; padding: .5em 0; font: inherit; background: none; color: inherit; }
-button svg { height: 1rem; width: 1rem; margin-left: .5rem; }
+button svg { height: .6rem; width: .6rem; margin-left: .25rem; }
 [aria-expanded="true"] .vert { display: none; }
 [aria-expanded] rect { fill: currentColor; }
 /* Variables */
@@ -2559,6 +2559,7 @@ button svg { height: 1rem; width: 1rem; margin-left: .5rem; }
  .v-mid-ns { vertical-align: middle; }
  .v-top-ns { vertical-align: top; }
  .v-btm-ns { vertical-align: bottom; }
+ button svg { height: 1rem; width: 1rem; margin-left: .5rem; }
 }
 @media screen and (min-width: 30em) and (max-width: 60em) {
  .aspect-ratio-m { height: 0; position: relative; }

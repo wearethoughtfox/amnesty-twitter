@@ -42,10 +42,19 @@ h2 button {
 }
 
 button svg {
-  height: 1rem;
-  width: 1rem;
-  margin-left: 0.5rem;
+  height: 0.6rem;
+  width: 0.6rem;
+  margin-left: 0.25rem;
 }
+
+@media (--breakpoint-not-small){
+  button svg {
+    height: 1rem;
+    width: 1rem;
+    margin-left: 0.5rem;
+  }
+}
+
 
 [aria-expanded="true"] .vert {
   display: none;
