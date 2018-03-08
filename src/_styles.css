@@ -41,9 +41,9 @@ h2 button {
   color: inherit;
 }
 
-
 button svg {
   height: 1rem;
+  width: 1rem;
   margin-left: 0.5rem;
 }
 
