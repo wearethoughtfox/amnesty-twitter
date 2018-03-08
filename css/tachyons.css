@@ -2059,7 +2059,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .dropdown { visibility: hidden; transition: visibility .3s ease-in-out; box-shadow: -6px 6px 25px -6px rgba( 20, 23, 26, .1 ), 6px 6px 25px -6px rgba( 20, 23, 26, .1 ); }
 .menu-dropdown:hover > .dropdown { visibility: visible; }
 .langnav-chevron svg { height: .5rem; }
-h2 button { all: inherit; border: 0; width: 100%; padding: .5em 0; }
+h2 button { all: inherit; border: 0; width: 100%; padding: .5em 0; font: inherit; background: none; color: inherit; }
 h2 button:focus svg { outline: 2px solid; }
 button svg { height: 1rem; margin-left: .5rem; }
 [aria-expanded="true"] .vert { display: none; }
