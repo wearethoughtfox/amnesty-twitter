@@ -38,12 +38,9 @@ h2 button {
   padding: 0.5em 0;
   font: inherit;
   background:none;
-  color:inherit;
+  color: inherit;
 }
 
-h2 button:focus svg {
-  outline: 2px solid;
-}
 
 button svg {
   height: 1rem;
