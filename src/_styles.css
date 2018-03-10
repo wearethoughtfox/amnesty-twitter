@@ -76,3 +76,13 @@ button svg {
 #arrow:hover {
   bottom: 1.25rem;
 }
+
+.typed-cursor {
+  font-size: 1.5rem;
+}
+
+@media (--breakpoint-large) {
+  .typed-cursor {
+    font-size: 3rem;
+  }
+}

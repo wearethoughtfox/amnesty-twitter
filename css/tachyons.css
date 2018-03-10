@@ -2065,6 +2065,7 @@ button svg { height: .6rem; width: .6rem; margin-left: .25rem; }
 [aria-expanded] rect { fill: currentColor; }
 #arrow { bottom: 2rem; transition: bottom ease .5s; }
 #arrow:hover { bottom: 1.25rem; }
+.typed-cursor { font-size: 1.5rem; }
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
 /*
@@ -3411,5 +3412,6 @@ button svg { height: .6rem; width: .6rem; margin-left: .25rem; }
  .v-top-l { vertical-align: top; }
  .v-btm-l { vertical-align: bottom; }
  .minh8-l { min-height: 64rem; }
+ .typed-cursor { font-size: 3rem; }
 }
 
