@@ -2066,6 +2066,17 @@ button svg { height: .6rem; width: .6rem; margin-left: .25rem; }
 #arrow { bottom: 2rem; transition: bottom ease .5s; }
 #arrow:hover { bottom: 1.25rem; }
 .typed-cursor { font-size: 1.5rem; }
+.bounce { -webkit-animation: bounce 2s forwards 1; animation: bounce 2s forwards 1; }
+@-webkit-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% { -webkit-transform: translateY( 0 ); transform: translateY( 0 ); }
+ 40% { -webkit-transform: translateY( -30px ); transform: translateY( -30px ); }
+ 60% { -webkit-transform: translateY( -15px ); transform: translateY( -15px ); }
+}
+@keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% { -webkit-transform: translateY( 0 ); transform: translateY( 0 ); }
+ 40% { -webkit-transform: translateY( -30px ); transform: translateY( -30px ); }
+ 60% { -webkit-transform: translateY( -15px ); transform: translateY( -15px ); }
+}
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
 /*
