@@ -69,12 +69,12 @@ button svg {
 }
 
 #arrow {
-  bottom: 2rem;
+  bottom: 4rem;
   transition: bottom ease 0.5s;
 }
 
 #arrow:hover {
-  bottom: 1.25rem;
+  bottom: 5rem;
 }
 
 .typed-cursor {

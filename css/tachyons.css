@@ -2063,8 +2063,8 @@ h2 button { all: inherit; border: 0; width: 100%; padding: .5em 0; font: inherit
 button svg { height: .6rem; width: .6rem; margin-left: .25rem; }
 [aria-expanded="true"] .vert { display: none; }
 [aria-expanded] rect { fill: currentColor; }
-#arrow { bottom: 2rem; transition: bottom ease .5s; }
-#arrow:hover { bottom: 1.25rem; }
+#arrow { bottom: 4rem; transition: bottom ease .5s; }
+#arrow:hover { bottom: 5rem; }
 .typed-cursor { font-size: 1.5rem; }
 .bounce { -webkit-animation: bounce 2s forwards 1; animation: bounce 2s forwards 1; }
 @-webkit-keyframes bounce {
