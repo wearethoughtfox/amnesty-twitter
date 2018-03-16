@@ -3423,7 +3423,7 @@ button svg { height: .6rem; width: .6rem; margin-left: .25rem; }
  .v-mid-l { vertical-align: middle; }
  .v-top-l { vertical-align: top; }
  .v-btm-l { vertical-align: bottom; }
- .minh8-l { min-height: 64rem; }
+ .minh8-l { min-height: 72rem; }
  .typed-cursor { font-size: 3rem; }
 }
 
