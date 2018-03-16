@@ -1276,6 +1276,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .fill-twitter-lightgreen { fill: #68e090; }
 .fill-twitter-darkgreen { fill: #008951; }
 .fill-twitter-grey { fill: #657786; }
+.fill-moon-gray { fill: #ccc; }
 /*
 
    SKINS:PSEUDO
