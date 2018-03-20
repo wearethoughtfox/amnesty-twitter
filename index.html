@@ -95,23 +95,14 @@ f=false,d=document;return{use_existing_jquery:function(){return use_existing_jqu
            
            
            <h2 class="f6 f4-l pb0 lh-title">
-            <button role="button" type="button" id="dropDown" class="white-60 hover-white-90 pointer-hover" aria-expanded="false" onclick="updateURL();">Not on Twitter? No worries, email them instead!
+            <button role="button" type="button" id="dropDown" class="white-60 hover-white-90 pointer-hover" aria-expanded="false">Not on Twitter? No worries, email them instead!
               <svg aria-hidden="true" focusable="false" viewBox="0 0 10 10">
                 <rect class="vert" height="8" width="2" y="1" x="4"/>
                 <rect height="2" width="8" y="4" x="1"/>
               </svg>
             </button>
           </h2>
-        </div>
-          
-           <script type="text/javascript">
-    function updateURL() {
-      if (history.pushState) {
-          var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?para=hello';
-          window.history.pushState({path:newurl},'',newurl);
-      }
-    }
-  </script>
+          </div>
 
           <div hidden id="dropDownTarget">
             <p style="text-align:center;">Send an email to the CEO of Twitter and make a stand with Amnesty International</p>
